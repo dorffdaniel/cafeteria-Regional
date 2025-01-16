@@ -13,4 +13,6 @@ Bem-vindo ao repositório do O Cafe Regional, uma página dedicada à paixão pe
 - CSS3: Estilização responsiva e visual moderno.
 - JavaScript: Para funcionalidades interativas.
 
+## Contato
+[linkedin](https://www.linkedin.com/in/daniel-alves-9872392a7/)
 
