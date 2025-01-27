@@ -5,8 +5,10 @@ function atualizarConteudo (titulo, texto){
     <p>${texto}</p>`;
 }
 
+let backGroundSection = document.querySelector('.conteudo-principal');
+
 function alterarImgFundo (imagemUrl){
-    document.body.style.backgroundImage = `url(${imagemUrl})`
+    backGroundSection.style.backgroundImage = `url(${imagemUrl})`
 }
 
 
@@ -45,4 +47,18 @@ contactLink.addEventListener('click', (event)=>{
     alterarImgFundo('src/imagens/imagemLocal.jpg')
 })
 
+
+let cardsProdutos = document.querySelectorAll('.cards');
+
+cardsProdutos.forEach((event)=>{
+    event.addEventListener('mouseover',()=>{
+        event.classList.toggle('efeitocardProdutos');
+    })
+})
+
+cardsProdutos.forEach((event)=>{
+    event.addEventListener('mouseout',()=>{
+        event.classList.toggle('efeitocardProdutos');
+    })
+})
 
