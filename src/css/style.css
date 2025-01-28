@@ -142,6 +142,10 @@ html{
     transition: all ease 0.5s;
 }
 
+#produtos h2{
+    font-size: calc(1vw + 1em);
+}
+
 #produtos .btnVerMaisCafes{
     width: 7em;
     height: 2em;
@@ -150,6 +154,13 @@ html{
     border: none;
     font-size: 1.3em;
     cursor: pointer;
+    transition: all ease 0.8s;
+}
+
+#produtos .btnVerMaisCafes:hover{
+    transition: all ease 0.8s;
+    background: #000;
+    color: #daa107;
 }
 
 .rodape{
